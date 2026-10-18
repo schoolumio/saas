@@ -49,6 +49,18 @@ export default function DocsPage() {
           for common questions.
         </p>
       </div>
+
+      <div className="rounded-lg border border-border bg-surface p-6">
+        <h2 className="text-base font-semibold text-foreground">For developers</h2>
+        <p className="mt-2 text-sm leading-relaxed text-muted">
+          Deploying or evaluating the Schoolum codebase itself:
+        </p>
+        <ul className="mt-3 space-y-1.5 text-sm">
+          <li><Link href="/docs/installation-guide" className="font-medium text-accent hover:underline">Installation & Deployment Guide</Link></li>
+          <li><Link href="/docs/environment-variables" className="font-medium text-accent hover:underline">Environment Variables Reference</Link></li>
+          <li><Link href="/docs/architecture" className="font-medium text-accent hover:underline">Architecture & Codebase Overview</Link></li>
+        </ul>
+      </div>
     </MarketingPageShell>
   );
 }
